@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Práctica 2 de HTML</h1>
+    <br>
+    <h2>Página de perfil y datos personales</h2>
+    <hr>
+    <form>
+        <fieldset>
+            <legend><h3>Datos del usuario</h3></legend>
+            <label for="rol">Ocupación: </label>
+            <input type="text" name="rol" readonly="ESTUDIANTE" placeholder="ESTUDIANTE">
+            <label for="carrera">Carrera: </label>
+            <input type="text" name="carrera" readonly="TUP" placeholder="TUP">
+            <br>
+            <label for="nombre">Nombre/s y apellido/s completo:</label>
+            <input type="text" name="nombre">
+            <br>
+            <label for="mail">Email:</label>
+            <input type="text" name="mail">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad">
+            <br>
+            <label for="pais">Nacionalidad:</label>
+            <select name="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Perú">Perú</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Otro">Otros</option>
+            </select>
+            <br>
+            <label for="condicionLaboral">Condición laboral:</label>
+            <select name="condicionLaboral">
+                <option value="Desempleado">Desempleado</option>
+                <option value="En búsqueda laboral">En búsqueda laboral</option>
+                <option value="Trabajo part time">Trabajo part time</option>
+                <option value="Trabajo full time">Trabajo full time</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Gustos y preferencias</h3></legend>
+            <label for="gustosMusicales">Banda de música favorita:</label>
+            <input type="text" name="gustosMusicales">
+            <br>
+            <label for="comidaFavorita">Comida favorita:</label>
+            <input type="text" name="comidaFavorita">
+            <br>
+            <label for="materiaFavorita">Materia favorita del cuatrimestre:</label>
+            <select>
+                <option value="Laboratorio de Computacion II">Laboratorio de Computacion II</option>
+                <option value="Programación II" selected>Programación II</option>
+                <option value="Inglés II">Inglés II</option>
+                <option value="Estadística">Estadística</option>
+                <option value="Metodología de la investigación">Metodología de la Investigación</option>
+                <option value="Arquitectura y Sistemas Operativos">Arquitectura y Sistemas Operativos</option>
+            </select>
+            <br>
+            <label for="calificacionCuatrimestre">Calificación del contenido del cuatrimestre:</label>
+            <select>
+                <option value="Pésimo">Pésimo</option>
+                <option value="Muy Malo">Muy malo</option>
+                <option value="Malo">Malo</option>
+                <option value="Regular" selected>Regular</option>
+                <option value="Bueno">Bueno</option>
+                <option value="Muy Bueno">Muy Bueno</option>
+                <option value="Excelente">Excelente</option>
+            </select>
+            <br>
+            <label for="profesorFav">Profesor favorito:</label>
+            <input type="text" name="profesorFav">
+        </fieldset>
+        <br>
+        <label for="guardarDatos">Guardar datos del usuario:</label>
+        <input type="checkbox" name="guardarDatos">
+        <br>
+        <input type="submit" name="enviar">
+    </form>
+</body>
+</html>

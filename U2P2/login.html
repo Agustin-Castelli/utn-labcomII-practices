@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Práctica 2 de HTML</h1>
+    <br>
+    <h2>Inicio de sesión del usuario</h2>
+    <hr>
+    <p>Para poder visualizar el contenido de esta página web, deberá iniciar sesión con su usuario y contraseña.</p>
+    <p>Por favor, ingrese los datos requeridos a continuación:</p>
+    <form action="enviarDatos.php" method="post" target="_self">
+        <label for="User">Nombre de usuario:</label>
+        <input type="text" name="User">
+        <br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" name="contrasena">
+        <br>
+        <label for="recordarDatos">Recordar datos?</label>
+        <input type="checkbox" name="recordarDatos">
+        <br>
+        <input type="submit" name="enviar" id="enviar">
+    </form>
+</body>
+</html>
