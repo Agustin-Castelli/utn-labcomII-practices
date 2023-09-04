@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica-3-HTML</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            * {
+            box-sizing: border-box;
+            }
+            body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #aaaaaa;
+            }
+            div.container {
+            overflow: auto;
+            }
+            header {
+            background-color: #e5e5e5;
+            padding: 15px;
+            text-align: center;
+            }
+            nav {
+            float: left;
+            width: 20%;
+            text-align: center;
+            }
+            nav ul {
+            padding-left: 0px;
+            }
+            nav li {
+            list-style: none;
+            }
+            nav li a {
+            background-color: #e5e5e5;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+            font-weight: 700;
+            }
+            main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            }
+            .right {
+            background-color: #e5e5e5;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+            }
+            footer {
+            background-color: #e5e5e5;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+            }
+            /* For mobile phones: */
+            @media only screen and (max-width: 620px) {
+            nav,
+            main,
+            .right {
+            width: 100%;
+            }
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <h1>PLNews.net</h1>
+            <h2>Noticias de la Premier League</h2>
+        </header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="multimedia.html">Multimedia</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>1. Altas, bajas y rumores del Manchester City</h2>
+                    <p>
+                        - Altas: Matheus Nunes (Wolverhampton), Jérémy Doku (Rennes),
+                        Josko Gvardiol (RB Leipzig), Mateo Kovacic (Chelsea)
+                    </p>
+                    <p>
+                        - Bajas: Slobodan Tedic (cedido, Charlton Athletic), Joao Cancelo (cedido, Barcelona),
+                        James McAtee (cedido, Sheffield Utd), Cole Palmer (Chelsea), Taylor Harwood-Bellis (cedido, Southampton),
+                        Aymeric Laporte (Al Nassr), Máximo Perrone (cedido, Las Palmas), Riyad Mahrez (Al Ahli),
+                        Josh Wilson-Esbrand (cedido, Stade de Reims), Issa Kaboré (cedio, Luton Town),
+                        Benjamin Mendy (libre, Lorient), Yangel Herrera (Girona), Ilkay Gündogan (libre, Barcelona),
+                        Nahuel Bustos (Talleres), Yan Couto (cedido, Girona)
+                    </p>
+                    <p>
+                        - Vuelven de cesión: Zack Steffen (Middlesbrough), Luke Mbete (Bolton Wanderers)
+                    </p>
+                    <p>
+                        - Interesan: Lucas Paqueta (West Ham), Achraf Hakimi (PSG), Antonee Robinson (Fulham), Giorgio Scalvini (Atalanta), Jarrod Bowen (West Ham)
+                    </p>
+                    <a href="https://www.marca.com/futbol/mercado-fichajes/2023/07/24/64be538a22601de5798b45ae.html">Seguir Leyendo</a>
+                </section>
+                <hr>
+                <section>
+                    <h2>2. Brighton venció por 3-1 a Newcastle como local en la Premier League</h2>
+                    <p>
+                        Brighton venció por 3-1 a Newcastle como local, en un partido de la jornada 4 de la Premier League.
+                        Para Brighton los goles fueron marcados por Evan Ferguson (a los 27, 65, 70 minutos). 
+                        Para Newcastle el gol fue marcado por Callum Wilson (a los 92 minutos).
+                    </p>
+                    <p>
+                        En la próxima fecha, Brighton se medirá con Manchester United, mientras que Newcastle tendrá como rival a Brentford.
+                    </p>
+                    <a href="https://www.lanacion.com.ar/deportes/futbol/brighton-vencio-por-3-1-a-newcastle-como-local-en-la-premier-league-nid02092023/">Seguir Leyendo</a>
+                </section>
+                <hr>
+                <section>
+                    <h2>3. Dura derrota del Chelsea ante Nottingham Forest por Premier League</h2>
+                    <p>
+                        Con Enzo Fernández en cancha, el Chelsea sufrió una dura derrota en casa ante el Nottingham Forest por 1 a 0 en la fecha 4 de la Premier League.
+                    </p>
+                    <p>
+                        El conjunto de Londres se vio deslucido, desarticulado. Segunda derrota por Premier League, primera en casa.
+                        Acumula solo cuatro puntos y queda a ocho del puntero Manchester City.
+                    </p>
+                    <p>
+                        La próxima fecha el Chelsea será visitante ante el Bournemouth tras el receso por las Eliminatorias. 
+                    </p>
+                    <a href="https://www.espn.com.ar/futbol/inglaterra/nota/_/id/12533741/dura-derrota-del-chelsea-ante-nottingham-forest-por-premier-league">Seguir Leyendo</a>
+                </section>
+                <hr>
+                <br><br>
+                <section>
+                    <h3> Acceso a la tabla de posiciones actualizada</h3>
+                    <a href="https://www.google.com/search?q=premier+league&rlz=1C2VDKB_esAR1036AR1036&sca_esv=562600721&sxsrf=AB5stBiqjtrtpQhz2AFabSwo_scKZKEcMg%3A1693862242904&source=hp&ei=Ykn2ZMbhM9SG1sQPr9OE0Ag&iflsig=AD69kcEAAAAAZPZXcvky-wSFn1r4YGIYGz4d45IZTWBn&ved=0ahUKEwjGmqLK8JGBAxVUg5UCHa8pAYoQ4dUDCAk&uact=5&oq=premier+league&gs_lp=Egdnd3Mtd2l6Ig5wcmVtaWVyIGxlYWd1ZTIHEC4YigUYJzIEECMYJzIKEAAYigUYsQMYQzIIEAAYgAQYsQMyDRAAGIoFGLEDGIMBGEMyCxAAGIAEGLEDGIMBMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMggQLhiABBixA0iGE1CaCFidEnABeACQAQCYAVmgAdcIqgECMTS4AQPIAQD4AQGoAgrCAgcQLhjqAhgnwgIHECMY6gIYJ8ICBxAjGIoFGCfCAgcQLhiKBRhDwgIHEAAYigUYQ8ICBBAAGAPCAgsQLhiABBixAxiDAcICCxAAGIoFGLEDGIMB&sclient=gws-wiz#sie=lg;/g/11sk7gnh6c;2;/m/02_tc;st;fp;1;;;">Click aquí</a>
+                </section>
+                <section>
+                    <h3>Tabla de goleadores/asistidores</h3>
+                    <a href="https://www.google.com/search?q=premier+league+posiciones&rlz=1C2VDKB_esAR1036AR1036&sca_esv=562600721&sxsrf=AB5stBj0PskyoBPYC7EWFpfbXZZ9zlaalw%3A1693862246458&ei=Zkn2ZLvLG7rR1sQP6YKzyAw&oq=premier+league+&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3ByZW1pZXIgbGVhZ3VlICoCCAIyBBAjGCcyChAAGIoFGLEDGEMyCBAAGIAEGLEDMgsQABiABBixAxiDATIIEAAYgAQYsQMyDRAAGIoFGLEDGIMBGEMyCBAAGIAEGLEDMgUQABiABDIIEC4YgAQYsQMyCBAAGIAEGLEDSLQbUN4DWN4DcAF4AZABAJgBVKABVKoBATG4AQHIAQD4AQHCAgcQIxiwAxgnwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPCAhAQLhiKBRjIAxiwAxhD2AEB4gMEGAAgQYgGAZAGFLoGBggBEAEYCA&sclient=gws-wiz-serp#sie=lg;/g/11sk7gnh6c;2;/m/02_tc;lb;fp;1;;;">Click aquí</a>
+                </section>
+            </main>
+            <div class="right">
+                <h2>Quiénes somos</h2>
+                <p>Tu Página Web de confianza con la última información disponible sobre la primera división inglesa de fútbol.</p>
+            </div>
+        </div>
+        <footer>
+            <p>© copyright Cuatro Gordos Hablando de Futbol</p>
+        </footer>
+    </body>
+</html>
