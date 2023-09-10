@@ -1,0 +1,66 @@
+* {
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+h1{
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900px;
+}
+
+h2{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800px;
+}
+
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul{
+    font-family: monospace;
+    font-size: 18px;
+    max-width: 40%;
+    margin-left: 100px;
+    padding: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    list-style-type: none;
+}
+
+a{
+    font-weight: 700;
+}
+
+ul li a{
+    color: orange;
+    text-decoration: underline;
+}
+
+ul li:nth-child(2){
+    color: green;
+}
+ul li:nth-child(6){
+    color: green;
+}
+
+#Neuquén{
+    color: green;
+}
+
+#RioNegro{
+    color: green;
+}
+
+ul li:hover{
+    color: rgba(0, 0, 0, 0.1);
+}
+
+li{
+    font-family: monospace;
+}
